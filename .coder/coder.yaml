@@ -17,4 +17,6 @@ workspace:
         shell: /bin/bash
         command: |
           ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-          git clone git@github.com:ericpaulsen/react-demo.git 
+          git clone git@github.com:ericpaulsen/react-demo.git
+          cd react-demo/
+          yarn
