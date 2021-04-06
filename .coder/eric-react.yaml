@@ -1,0 +1,25 @@
+version: 0.1
+workspace:
+  type: kubernetes
+  spec:
+    image: index.docker.io/coderenterprise/react
+    container-based-vm: false
+    cpu: 4
+    memory: 8
+    disk: 16
+    gpuCount: 1
+    labels:
+      com.coder.custom.hello: "hello"
+      com.coder.custom.world: "world"
+    tolerations:
+      - key: my-key
+        operator: Equal
+        value: my-value
+        effect: NoExecute
+        tolerationSeconds: 3600
+  configure:
+    start:
+      - name: "clone react-demo repo"
+        directory: /home/coder/
+        shell: "/bin/bash"
+        command: git clone git@github.com:ericpaulsen/react-demo.git
