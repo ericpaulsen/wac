@@ -12,7 +12,7 @@ workspace:
       com.coder.custom.world: "world"
   configure:
     start:
-      - name: "clone react-demo repo"
+      - name: clone react-demo repo
         directory: /home/coder/
         shell: "/bin/bash"
         command: git clone git@github.com:ericpaulsen/react-demo.git
