@@ -3,7 +3,7 @@ workspace:
   type: "kubernetes"
   spec:
     image: index.docker.io/coderenterprise/react
-    container-based-vm: false
+    container-based-vm: true
     cpu: 4
     memory: 4
     disk: 10
