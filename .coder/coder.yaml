@@ -5,7 +5,7 @@ workspace:
     image: index.docker.io/coderenterprise/react
     container-based-vm: true
     cpu: 4
-    memory: 4
+    memory: 8
     disk: 10
     labels:
       com.coder.custom.hello: "hello"
