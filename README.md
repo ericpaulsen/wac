@@ -4,4 +4,4 @@ The button kicks off a workspace build, based on the spec defined in `.coder/rea
 
 Coder pulls in the template through an OAuth integration with GitHub. BitBucket and GitLab are also supported.
 
-[![Open in Coder](https://demo-2.cdr.dev/static/image/embed-button.svg)](https://demo-2.cdr.dev/wac/build?template_oauth_service=61bce348-ee6e683e630a68fc349aacfc&template_url=https://github.com/ericpaulsen/workspace-templates&template_ref=master&template_filepath=.coder/react.yml)
+[![Open in Coder](http://demo-2.cdr.dev/static/image/embed-button.svg)](http://demo-2.cdr.dev/wac/build?template_oauth_service=63542440-047134eb3cef33046b8e63ab&template_url=https://github.com/ericpaulsen/workspace-templates&template_ref=main&template_filepath=.coder/react.yml)
