@@ -1,6 +1,6 @@
 # The Coder badge.
 
-The button kicks off a workspace build, based on the spec defined in `.coder/react.yml`.
+The button kicks off a workspace build, based on the spec defined in `.coder/react.yml`. Test.
 
 Coder pulls in the template through an OAuth integration with GitHub. BitBucket and GitLab are also supported.
 
